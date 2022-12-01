@@ -1,9 +1,24 @@
- - get all tags and names from PLC into kepserver
-    - how to export tags from plc
 
 
-    
- - make sure all tags in kepserver are in ignition 
-    - Apply metadata or something?
-- Create graphic ignition vision
-- start azure work (iothub)
+Currently Complete
+- PLCs and WW HMI
+	- Running locally on VMs
+
+- Ignition
+	- PLC to ignition server running locally
+
+
+
+Todos:
+- Clean up PLC to Ignition Tag Mapping
+	- Use code in iot_project demo_project code
+   - probably want to do mapping in ignition
+- Create Ignition HMI
+- Setup ignition MQTT
+- Connect ignition to Azure IOThub
+   - can initially use IOT central
+- Create Azure digital twins using demo_project code
+	- Create API using APM
+- Move local rockwell to cloud
+- Move ignition to cloud
+- Setup cloud analytics
