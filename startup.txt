@@ -1,0 +1,5 @@
+Start com0com
+start rsemulate
+refresh ignition trial mode
+start kepserver trial mode
+

@@ -1,0 +1,1529 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "DerivedTags",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "reference",
+          "dataType": "Boolean",
+          "sourceTagPath": "[~]Device1/B3:0_0.value",
+          "name": "FS-1",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "Device1",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "_Statistics",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._Statistics._FailedReads",
+              "dataType": "Int8",
+              "name": "_FailedReads",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._Statistics._SuccessfulReads",
+              "dataType": "Int8",
+              "name": "_SuccessfulReads",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._Statistics._FailedWrites",
+              "dataType": "Int8",
+              "name": "_FailedWrites",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._Statistics._RxBytes",
+              "dataType": "Int8",
+              "name": "_RxBytes",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._Statistics._Reset",
+              "dataType": "Boolean",
+              "name": "_Reset",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._Statistics._TxBytes",
+              "dataType": "Int8",
+              "name": "_TxBytes",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._Statistics._SuccessfulWrites",
+              "dataType": "Int8",
+              "name": "_SuccessfulWrites",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            }
+          ]
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/9",
+          "dataType": "Boolean",
+          "name": "B3:5_9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/13",
+          "dataType": "Boolean",
+          "name": "B3:4_13",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:5",
+          "dataType": "Float4",
+          "name": "F8:5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/0",
+          "dataType": "Boolean",
+          "name": "B3:6_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/4",
+          "dataType": "Boolean",
+          "name": "B3:3_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:7",
+          "dataType": "Int4",
+          "name": "T4:7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/1",
+          "dataType": "Boolean",
+          "name": "B3:6_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/14",
+          "dataType": "Boolean",
+          "name": "B3:5_14",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/4",
+          "dataType": "Boolean",
+          "name": "B3:4_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/5",
+          "dataType": "Boolean",
+          "name": "B3:4_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N10:1",
+          "dataType": "Int4",
+          "name": "N10:1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:1",
+          "dataType": "Int4",
+          "name": "N7:1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/10",
+          "dataType": "Boolean",
+          "name": "B3:1_10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/2",
+          "dataType": "Boolean",
+          "name": "B3:3_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:10",
+          "dataType": "Int4",
+          "name": "N7:10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/1",
+          "dataType": "Boolean",
+          "name": "B3:4_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/10",
+          "dataType": "Boolean",
+          "name": "B3:6_10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:5",
+          "dataType": "Int4",
+          "name": "T4:5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/13",
+          "dataType": "Boolean",
+          "name": "B3:3_13",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/2",
+          "dataType": "Boolean",
+          "name": "B3:1_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:8",
+          "dataType": "Int4",
+          "name": "T4:8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/14",
+          "dataType": "Boolean",
+          "name": "B3:0_14",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/13",
+          "dataType": "Boolean",
+          "name": "B3:5_13",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:10",
+          "dataType": "Float4",
+          "name": "F8:10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/2",
+          "dataType": "Boolean",
+          "name": "B3:6_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/4",
+          "dataType": "Boolean",
+          "name": "B3:1_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:7",
+          "dataType": "Float4",
+          "name": "F8:7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/11",
+          "dataType": "Boolean",
+          "name": "B3:0_11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/4",
+          "dataType": "Boolean",
+          "name": "B3:6_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/3",
+          "dataType": "Boolean",
+          "name": "B3:2_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/0",
+          "dataType": "Boolean",
+          "name": "B3:5_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/15",
+          "dataType": "Boolean",
+          "name": "B3:5_15",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/5",
+          "dataType": "Boolean",
+          "name": "B3:5_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/4",
+          "dataType": "Boolean",
+          "name": "B3:0_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/4",
+          "dataType": "Boolean",
+          "name": "B3:5_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/8",
+          "dataType": "Boolean",
+          "name": "B3:6_8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:2",
+          "dataType": "Int4",
+          "name": "T4:2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/12",
+          "dataType": "Boolean",
+          "name": "B3:2_12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:10",
+          "dataType": "Int4",
+          "name": "T4:10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/0",
+          "dataType": "Boolean",
+          "name": "B3:0_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/9",
+          "dataType": "Boolean",
+          "name": "B3:2_9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/10",
+          "dataType": "Boolean",
+          "name": "B3:2_10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/14",
+          "dataType": "Boolean",
+          "name": "B3:1_14",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "name": "_System",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._EncapsulationPort",
+              "dataType": "Int4",
+              "name": "_EncapsulationPort",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._RequestTimeout",
+              "dataType": "Int4",
+              "name": "_RequestTimeout",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._DemandPoll",
+              "dataType": "Boolean",
+              "name": "_DemandPoll",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._Error",
+              "dataType": "Boolean",
+              "name": "_Error",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._RequestAttempts",
+              "dataType": "Int4",
+              "name": "_RequestAttempts",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._ScanRateMs",
+              "dataType": "Int8",
+              "name": "_ScanRateMs",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._AutoDemotionIntervalMS",
+              "dataType": "Int4",
+              "name": "_AutoDemotionIntervalMS",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._EncapsulationProtocol",
+              "dataType": "String",
+              "name": "_EncapsulationProtocol",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._DeviceId",
+              "dataType": "String",
+              "name": "_DeviceId",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._ScanMode",
+              "dataType": "String",
+              "name": "_ScanMode",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._Enabled",
+              "dataType": "Boolean",
+              "name": "_Enabled",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._AutoDemotionFailureCount",
+              "dataType": "Int4",
+              "name": "_AutoDemotionFailureCount",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._Description",
+              "dataType": "String",
+              "name": "_Description",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._NoError",
+              "dataType": "Boolean",
+              "name": "_NoError",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._AutoDemotionDiscardWrites",
+              "dataType": "Boolean",
+              "name": "_AutoDemotionDiscardWrites",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._AutoDemoted",
+              "dataType": "Boolean",
+              "name": "_AutoDemoted",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._ConnectTimeout",
+              "dataType": "Int4",
+              "name": "_ConnectTimeout",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._EncapsulationIp",
+              "dataType": "String",
+              "name": "_EncapsulationIp",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._SecondsInError",
+              "dataType": "Int8",
+              "name": "_SecondsInError",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._Simulated",
+              "dataType": "Boolean",
+              "name": "_Simulated",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1._System._AutoDemotionEnabled",
+              "dataType": "Boolean",
+              "name": "_AutoDemotionEnabled",
+              "tagType": "AtomicTag",
+              "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+            }
+          ]
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:9",
+          "dataType": "Int4",
+          "name": "N7:9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/7",
+          "dataType": "Boolean",
+          "name": "B3:0_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/11",
+          "dataType": "Boolean",
+          "name": "B3:1_11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:0",
+          "dataType": "Float4",
+          "name": "F8:0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/4",
+          "dataType": "Boolean",
+          "name": "B9:0_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/2",
+          "dataType": "Boolean",
+          "name": "B3:5_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:11",
+          "dataType": "Int4",
+          "name": "T4:11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/12",
+          "dataType": "Boolean",
+          "name": "B3:4_12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/15",
+          "dataType": "Boolean",
+          "name": "B3:3_15",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/1",
+          "dataType": "Boolean",
+          "name": "B3:5_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/4",
+          "dataType": "Boolean",
+          "name": "B3:2_4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/10",
+          "dataType": "Boolean",
+          "name": "B3:3_10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/2",
+          "dataType": "Boolean",
+          "name": "B9:0_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:8",
+          "dataType": "Float4",
+          "name": "F8:8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:4",
+          "dataType": "Int4",
+          "name": "N7:4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:7",
+          "dataType": "Int4",
+          "name": "N7:7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/9",
+          "dataType": "Boolean",
+          "name": "B3:4_9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/3",
+          "dataType": "Boolean",
+          "name": "B9:0_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/14",
+          "dataType": "Boolean",
+          "name": "B3:3_14",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/2",
+          "dataType": "Boolean",
+          "name": "B3:4_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/7",
+          "dataType": "Boolean",
+          "name": "B3:1_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/3",
+          "dataType": "Boolean",
+          "name": "B3:3_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/12",
+          "dataType": "Boolean",
+          "name": "B3:0_12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/10",
+          "dataType": "Boolean",
+          "name": "B3:5_10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/7",
+          "dataType": "Boolean",
+          "name": "B3:2_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/15",
+          "dataType": "Boolean",
+          "name": "B3:4_15",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/5",
+          "dataType": "Boolean",
+          "name": "B3:2_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/0",
+          "dataType": "Boolean",
+          "name": "B9:0_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/13",
+          "dataType": "Boolean",
+          "name": "B3:1_13",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:6",
+          "dataType": "Float4",
+          "name": "F8:6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/7",
+          "dataType": "Boolean",
+          "name": "B9:0_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/0",
+          "dataType": "Boolean",
+          "name": "B3:3_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/12",
+          "dataType": "Boolean",
+          "name": "B3:1_12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/13",
+          "dataType": "Boolean",
+          "name": "B3:2_13",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/2",
+          "dataType": "Boolean",
+          "name": "B3:0_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/1",
+          "dataType": "Boolean",
+          "name": "B3:3_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:8",
+          "dataType": "Int4",
+          "name": "N7:8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/0",
+          "dataType": "Boolean",
+          "name": "B3:1_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/6",
+          "dataType": "Boolean",
+          "name": "B3:1_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N10:0",
+          "dataType": "Int4",
+          "name": "N10:0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/1",
+          "dataType": "Boolean",
+          "name": "B3:0_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/13",
+          "dataType": "Boolean",
+          "name": "B3:0_13",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/10",
+          "dataType": "Boolean",
+          "name": "B3:4_10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:0",
+          "dataType": "Int4",
+          "name": "T4:0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/6",
+          "dataType": "Boolean",
+          "name": "B3:4_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/7",
+          "dataType": "Boolean",
+          "name": "B3:3_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/6",
+          "dataType": "Boolean",
+          "name": "B3:6_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/0",
+          "dataType": "Boolean",
+          "name": "B3:2_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:3",
+          "dataType": "Int4",
+          "name": "N7:3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/15",
+          "dataType": "Boolean",
+          "name": "B3:2_15",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/8",
+          "dataType": "Boolean",
+          "name": "B3:2_8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/7",
+          "dataType": "Boolean",
+          "name": "B3:4_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:2",
+          "dataType": "Int4",
+          "name": "N7:2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:6",
+          "dataType": "Int4",
+          "name": "T4:6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/1",
+          "dataType": "Boolean",
+          "name": "B9:0_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/5",
+          "dataType": "Boolean",
+          "name": "B3:0_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:11",
+          "dataType": "Int4",
+          "name": "N7:11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/6",
+          "dataType": "Boolean",
+          "name": "B3:5_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:1",
+          "dataType": "Float4",
+          "name": "F8:1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N10:2",
+          "dataType": "Int4",
+          "name": "N10:2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:4",
+          "dataType": "Int4",
+          "name": "T4:4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/9",
+          "dataType": "Boolean",
+          "name": "B3:1_9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:12",
+          "dataType": "Int4",
+          "name": "T4:12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/5",
+          "dataType": "Boolean",
+          "name": "B3:6_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/6",
+          "dataType": "Boolean",
+          "name": "B3:3_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/14",
+          "dataType": "Boolean",
+          "name": "B3:4_14",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/14",
+          "dataType": "Boolean",
+          "name": "B3:2_14",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:9",
+          "dataType": "Float4",
+          "name": "F8:9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/3",
+          "dataType": "Boolean",
+          "name": "B3:1_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:0",
+          "dataType": "Int4",
+          "name": "N7:0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/9",
+          "dataType": "Boolean",
+          "name": "B3:0_9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/9",
+          "dataType": "Boolean",
+          "name": "B3:3_9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/7",
+          "dataType": "Boolean",
+          "name": "B3:6_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/3",
+          "dataType": "Boolean",
+          "name": "B3:4_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/8",
+          "dataType": "Boolean",
+          "name": "B3:3_8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/5",
+          "dataType": "Boolean",
+          "name": "B9:0_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:12",
+          "dataType": "Int4",
+          "name": "N7:12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/15",
+          "dataType": "Boolean",
+          "name": "B3:0_15",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:14",
+          "dataType": "Int4",
+          "name": "T4:14",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:9",
+          "dataType": "Int4",
+          "name": "T4:9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/2",
+          "dataType": "Boolean",
+          "name": "B3:2_2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/12",
+          "dataType": "Boolean",
+          "name": "B3:3_12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/8",
+          "dataType": "Boolean",
+          "name": "B3:5_8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:2",
+          "dataType": "Float4",
+          "name": "F8:2",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/3",
+          "dataType": "Boolean",
+          "name": "B3:5_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:11",
+          "dataType": "Float4",
+          "name": "F8:11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:1",
+          "dataType": "Int4",
+          "name": "T4:1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/10",
+          "dataType": "Boolean",
+          "name": "B3:0_10",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:3",
+          "dataType": "Float4",
+          "name": "F8:3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/3",
+          "dataType": "Boolean",
+          "name": "B3:6_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/11",
+          "dataType": "Boolean",
+          "name": "B3:3_11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/6",
+          "dataType": "Boolean",
+          "name": "B3:0_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/8",
+          "dataType": "Boolean",
+          "name": "B3:4_8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/11",
+          "dataType": "Boolean",
+          "name": "B3:4_11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:4/0",
+          "dataType": "Boolean",
+          "name": "B3:4_0",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/15",
+          "dataType": "Boolean",
+          "name": "B3:1_15",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/1",
+          "dataType": "Boolean",
+          "name": "B3:2_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/11",
+          "dataType": "Boolean",
+          "name": "B3:2_11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:3/5",
+          "dataType": "Boolean",
+          "name": "B3:3_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.F8:4",
+          "dataType": "Float4",
+          "name": "F8:4",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:5",
+          "dataType": "Int4",
+          "name": "N7:5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:13",
+          "dataType": "Int4",
+          "name": "T4:13",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/7",
+          "dataType": "Boolean",
+          "name": "B3:5_7",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B9:0/6",
+          "dataType": "Boolean",
+          "name": "B9:0_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/1",
+          "dataType": "Boolean",
+          "name": "B3:1_1",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/8",
+          "dataType": "Boolean",
+          "name": "B3:1_8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/12",
+          "dataType": "Boolean",
+          "name": "B3:5_12",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:1/5",
+          "dataType": "Boolean",
+          "name": "B3:1_5",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:6/9",
+          "dataType": "Boolean",
+          "name": "B3:6_9",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/8",
+          "dataType": "Boolean",
+          "name": "B3:0_8",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:2/6",
+          "dataType": "Boolean",
+          "name": "B3:2_6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.T4:3",
+          "dataType": "Int4",
+          "name": "T4:3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:0/3",
+          "dataType": "Boolean",
+          "name": "B3:0_3",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.B3:5/11",
+          "dataType": "Boolean",
+          "name": "B3:5_11",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "nsu\u003dKEPServerEX;s\u003dChannel1.Device1.N7:6",
+          "dataType": "Int4",
+          "name": "N7:6",
+          "tagType": "AtomicTag",
+          "opcServer": "KEPServerEX/UA@DESKTOP-J7KV26G"
+        }
+      ]
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    }
+  ]
+}

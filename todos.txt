@@ -1,0 +1,9 @@
+ - get all tags and names from PLC into kepserver
+    - how to export tags from plc
+
+
+    
+ - make sure all tags in kepserver are in ignition 
+    - Apply metadata or something?
+- Create graphic ignition vision
+- start azure work (iothub)

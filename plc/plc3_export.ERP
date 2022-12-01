@@ -1,0 +1,39 @@
+"N0007:009","","Counts by seconds and updates minutes, hours and thousands of hours automaticall
+y"
+"T0004:001","","High Pressure alarm"
+"T0004:005","","Triggers the pending backwash based on tank level (we have to have sufficient wa
+ter to backwash the filter)"
+"RUNG000002-000000","","Call all ladders in the program."
+"RUNG000002-000010","","Prevent division by zero from faulting processor"
+"RUNG000003-000000","","Map output control bits to output devices.  In  a REAL program, the addresses on
+ the right would be O: addresses, but this program is written solely for use wit
+h Emulate, and therefore no I: or O: address are used.  Instead, we're using bit
+ addresses and integer addresses so that the SIM ladder can generate artificial 
+input signals."
+"RUNG000004-000000","","High Pressure alarm to prevent explosions and messes"
+"RUNG000004-000004","","Low flow alarm (to protect the pump from cavitation)"
+"RUNG000004-000008","","Low level alarm to prevent sediment at the bottom of the tank from being sent do
+wnstream"
+"RUNG000004-000012","","High level alarm to prevent flooding"
+"RUNG000004-000016","","Creating a critical alarm bit for use within the logic to determine whether the 
+system can run"
+"RUNG000005-000000","","Abstract logic to energize each of the output devices based on whether its HOA s
+tatus is HAND or AUTO"
+"RUNG000007-000000","","Simulation logic governs the input signals allowing the system logic to function
+ as if it were running in a real-world, dynamic environment."
+"RUNG000008-000000","","This logic controls the system mode (RUN / STOP)"
+"RUNG000009-000000","","Allows the backwash cycle to be blocked or enabled"
+"RUNG000009-000001","","Set a pending status for a backwash based on differential pressure across the fi
+lter"
+"RUNG000009-000006","","Actually controls the backwash cycle bit"
+"RUNG000009-000007","","Timer control for the backwash cycle"
+"RUNG000009-000008","","Backwash time remaining created for display on the HMI"
+"RUNG000009-000009","","Cycle counter for backwash"
+"RUNG000009-000010","","Data log trigger for BACKWASH table in the SQL database"
+"RUNG000009-000013","","Reset action for the backwash cycle count"
+"RUNG000010-000000","","Fills and drains the tank by controlling the pump based on level"
+"RUNG000011-000000","","Determines WHEN to count hours"
+"RUNG000011-000005","","Reset action for the hourmeter"
+"RUNG000012-000000","","This ladder doesn't do ANYTHING.  It just makes various system registers avaiala
+ble in one place for the programmer (you) to control the system without an HMI a
+nd without having to jump back and forth between several ladders"
