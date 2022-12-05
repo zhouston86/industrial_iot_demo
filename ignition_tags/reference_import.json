@@ -1,0 +1,1116 @@
+
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "DerivedTags",
+      "tagType": "Folder",
+      "tags": [
+    		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_9",
+		"sourceTagPath": "[~]Device1/B3:5_9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_13",
+		"sourceTagPath": "[~]Device1/B3:4_13"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:5",
+		"sourceTagPath": "[~]Device1/F8:5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_0",
+		"sourceTagPath": "[~]Device1/B3:6_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_4",
+		"sourceTagPath": "[~]Device1/B3:3_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:7",
+		"sourceTagPath": "[~]Device1/T4:7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_1",
+		"sourceTagPath": "[~]Device1/B3:6_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_14",
+		"sourceTagPath": "[~]Device1/B3:5_14"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_4",
+		"sourceTagPath": "[~]Device1/B3:4_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_5",
+		"sourceTagPath": "[~]Device1/B3:4_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N10:1",
+		"sourceTagPath": "[~]Device1/N10:1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:1",
+		"sourceTagPath": "[~]Device1/N7:1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_10",
+		"sourceTagPath": "[~]Device1/B3:1_10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_2",
+		"sourceTagPath": "[~]Device1/B3:3_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:10",
+		"sourceTagPath": "[~]Device1/N7:10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_1",
+		"sourceTagPath": "[~]Device1/B3:4_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_10",
+		"sourceTagPath": "[~]Device1/B3:6_10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:5",
+		"sourceTagPath": "[~]Device1/T4:5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_13",
+		"sourceTagPath": "[~]Device1/B3:3_13"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_2",
+		"sourceTagPath": "[~]Device1/B3:1_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:8",
+		"sourceTagPath": "[~]Device1/T4:8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_14",
+		"sourceTagPath": "[~]Device1/B3:0_14"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_13",
+		"sourceTagPath": "[~]Device1/B3:5_13"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:10",
+		"sourceTagPath": "[~]Device1/F8:10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_2",
+		"sourceTagPath": "[~]Device1/B3:6_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_4",
+		"sourceTagPath": "[~]Device1/B3:1_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:7",
+		"sourceTagPath": "[~]Device1/F8:7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_11",
+		"sourceTagPath": "[~]Device1/B3:0_11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_4",
+		"sourceTagPath": "[~]Device1/B3:6_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_3",
+		"sourceTagPath": "[~]Device1/B3:2_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_0",
+		"sourceTagPath": "[~]Device1/B3:5_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_15",
+		"sourceTagPath": "[~]Device1/B3:5_15"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_5",
+		"sourceTagPath": "[~]Device1/B3:5_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_4",
+		"sourceTagPath": "[~]Device1/B3:0_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_4",
+		"sourceTagPath": "[~]Device1/B3:5_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_8",
+		"sourceTagPath": "[~]Device1/B3:6_8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:2",
+		"sourceTagPath": "[~]Device1/T4:2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_12",
+		"sourceTagPath": "[~]Device1/B3:2_12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:10",
+		"sourceTagPath": "[~]Device1/T4:10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_0",
+		"sourceTagPath": "[~]Device1/B3:0_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_9",
+		"sourceTagPath": "[~]Device1/B3:2_9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_10",
+		"sourceTagPath": "[~]Device1/B3:2_10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_14",
+		"sourceTagPath": "[~]Device1/B3:1_14"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:9",
+		"sourceTagPath": "[~]Device1/N7:9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_7",
+		"sourceTagPath": "[~]Device1/B3:0_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_11",
+		"sourceTagPath": "[~]Device1/B3:1_11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:0",
+		"sourceTagPath": "[~]Device1/F8:0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_4",
+		"sourceTagPath": "[~]Device1/B9:0_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_2",
+		"sourceTagPath": "[~]Device1/B3:5_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:11",
+		"sourceTagPath": "[~]Device1/T4:11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_12",
+		"sourceTagPath": "[~]Device1/B3:4_12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_15",
+		"sourceTagPath": "[~]Device1/B3:3_15"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_1",
+		"sourceTagPath": "[~]Device1/B3:5_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_4",
+		"sourceTagPath": "[~]Device1/B3:2_4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_10",
+		"sourceTagPath": "[~]Device1/B3:3_10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_2",
+		"sourceTagPath": "[~]Device1/B9:0_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:8",
+		"sourceTagPath": "[~]Device1/F8:8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:4",
+		"sourceTagPath": "[~]Device1/N7:4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:7",
+		"sourceTagPath": "[~]Device1/N7:7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_9",
+		"sourceTagPath": "[~]Device1/B3:4_9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_3",
+		"sourceTagPath": "[~]Device1/B9:0_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_14",
+		"sourceTagPath": "[~]Device1/B3:3_14"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_2",
+		"sourceTagPath": "[~]Device1/B3:4_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_7",
+		"sourceTagPath": "[~]Device1/B3:1_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_3",
+		"sourceTagPath": "[~]Device1/B3:3_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_12",
+		"sourceTagPath": "[~]Device1/B3:0_12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_10",
+		"sourceTagPath": "[~]Device1/B3:5_10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_7",
+		"sourceTagPath": "[~]Device1/B3:2_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_15",
+		"sourceTagPath": "[~]Device1/B3:4_15"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_5",
+		"sourceTagPath": "[~]Device1/B3:2_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_0",
+		"sourceTagPath": "[~]Device1/B9:0_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_13",
+		"sourceTagPath": "[~]Device1/B3:1_13"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:6",
+		"sourceTagPath": "[~]Device1/F8:6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_7",
+		"sourceTagPath": "[~]Device1/B9:0_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_0",
+		"sourceTagPath": "[~]Device1/B3:3_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_12",
+		"sourceTagPath": "[~]Device1/B3:1_12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_13",
+		"sourceTagPath": "[~]Device1/B3:2_13"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_2",
+		"sourceTagPath": "[~]Device1/B3:0_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_1",
+		"sourceTagPath": "[~]Device1/B3:3_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:8",
+		"sourceTagPath": "[~]Device1/N7:8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_0",
+		"sourceTagPath": "[~]Device1/B3:1_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_6",
+		"sourceTagPath": "[~]Device1/B3:1_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N10:0",
+		"sourceTagPath": "[~]Device1/N10:0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_1",
+		"sourceTagPath": "[~]Device1/B3:0_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_13",
+		"sourceTagPath": "[~]Device1/B3:0_13"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_10",
+		"sourceTagPath": "[~]Device1/B3:4_10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:0",
+		"sourceTagPath": "[~]Device1/T4:0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_6",
+		"sourceTagPath": "[~]Device1/B3:4_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_7",
+		"sourceTagPath": "[~]Device1/B3:3_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_6",
+		"sourceTagPath": "[~]Device1/B3:6_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_0",
+		"sourceTagPath": "[~]Device1/B3:2_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:3",
+		"sourceTagPath": "[~]Device1/N7:3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_15",
+		"sourceTagPath": "[~]Device1/B3:2_15"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_8",
+		"sourceTagPath": "[~]Device1/B3:2_8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_7",
+		"sourceTagPath": "[~]Device1/B3:4_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:2",
+		"sourceTagPath": "[~]Device1/N7:2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:6",
+		"sourceTagPath": "[~]Device1/T4:6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_1",
+		"sourceTagPath": "[~]Device1/B9:0_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_5",
+		"sourceTagPath": "[~]Device1/B3:0_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:11",
+		"sourceTagPath": "[~]Device1/N7:11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_6",
+		"sourceTagPath": "[~]Device1/B3:5_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:1",
+		"sourceTagPath": "[~]Device1/F8:1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N10:2",
+		"sourceTagPath": "[~]Device1/N10:2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:4",
+		"sourceTagPath": "[~]Device1/T4:4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_9",
+		"sourceTagPath": "[~]Device1/B3:1_9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:12",
+		"sourceTagPath": "[~]Device1/T4:12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_5",
+		"sourceTagPath": "[~]Device1/B3:6_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_6",
+		"sourceTagPath": "[~]Device1/B3:3_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_14",
+		"sourceTagPath": "[~]Device1/B3:4_14"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_14",
+		"sourceTagPath": "[~]Device1/B3:2_14"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:9",
+		"sourceTagPath": "[~]Device1/F8:9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_3",
+		"sourceTagPath": "[~]Device1/B3:1_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:0",
+		"sourceTagPath": "[~]Device1/N7:0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_9",
+		"sourceTagPath": "[~]Device1/B3:0_9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_9",
+		"sourceTagPath": "[~]Device1/B3:3_9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_7",
+		"sourceTagPath": "[~]Device1/B3:6_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_3",
+		"sourceTagPath": "[~]Device1/B3:4_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_8",
+		"sourceTagPath": "[~]Device1/B3:3_8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_5",
+		"sourceTagPath": "[~]Device1/B9:0_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:12",
+		"sourceTagPath": "[~]Device1/N7:12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_15",
+		"sourceTagPath": "[~]Device1/B3:0_15"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:14",
+		"sourceTagPath": "[~]Device1/T4:14"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:9",
+		"sourceTagPath": "[~]Device1/T4:9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_2",
+		"sourceTagPath": "[~]Device1/B3:2_2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_12",
+		"sourceTagPath": "[~]Device1/B3:3_12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_8",
+		"sourceTagPath": "[~]Device1/B3:5_8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:2",
+		"sourceTagPath": "[~]Device1/F8:2"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_3",
+		"sourceTagPath": "[~]Device1/B3:5_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:11",
+		"sourceTagPath": "[~]Device1/F8:11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:1",
+		"sourceTagPath": "[~]Device1/T4:1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_10",
+		"sourceTagPath": "[~]Device1/B3:0_10"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:3",
+		"sourceTagPath": "[~]Device1/F8:3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_3",
+		"sourceTagPath": "[~]Device1/B3:6_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_11",
+		"sourceTagPath": "[~]Device1/B3:3_11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_6",
+		"sourceTagPath": "[~]Device1/B3:0_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_8",
+		"sourceTagPath": "[~]Device1/B3:4_8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_11",
+		"sourceTagPath": "[~]Device1/B3:4_11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:4_0",
+		"sourceTagPath": "[~]Device1/B3:4_0"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_15",
+		"sourceTagPath": "[~]Device1/B3:1_15"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_1",
+		"sourceTagPath": "[~]Device1/B3:2_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_11",
+		"sourceTagPath": "[~]Device1/B3:2_11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:3_5",
+		"sourceTagPath": "[~]Device1/B3:3_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Float4",
+		"name": "F8:4",
+		"sourceTagPath": "[~]Device1/F8:4"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:5",
+		"sourceTagPath": "[~]Device1/N7:5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:13",
+		"sourceTagPath": "[~]Device1/T4:13"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_7",
+		"sourceTagPath": "[~]Device1/B3:5_7"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B9:0_6",
+		"sourceTagPath": "[~]Device1/B9:0_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_1",
+		"sourceTagPath": "[~]Device1/B3:1_1"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_8",
+		"sourceTagPath": "[~]Device1/B3:1_8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_12",
+		"sourceTagPath": "[~]Device1/B3:5_12"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:1_5",
+		"sourceTagPath": "[~]Device1/B3:1_5"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:6_9",
+		"sourceTagPath": "[~]Device1/B3:6_9"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_8",
+		"sourceTagPath": "[~]Device1/B3:0_8"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:2_6",
+		"sourceTagPath": "[~]Device1/B3:2_6"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "T4:3",
+		"sourceTagPath": "[~]Device1/T4:3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:0_3",
+		"sourceTagPath": "[~]Device1/B3:0_3"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Boolean",
+		"name": "B3:5_11",
+		"sourceTagPath": "[~]Device1/B3:5_11"
+		},
+		{
+		"valueSource": "reference",
+		"tagType": "AtomicTag",
+		"dataType": "Int4",
+		"name": "N7:6",
+		"sourceTagPath": "[~]Device1/N7:6"
+		},
+]]}
