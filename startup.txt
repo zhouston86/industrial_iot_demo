@@ -1,5 +1,5 @@
 Start com0com
-start rsemulate
+start rsemulate, check datahighway is com4 and CRC enabled
 refresh ignition trial mode
 start kepserver trial mode
 

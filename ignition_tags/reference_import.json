@@ -9,1107 +9,505 @@
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_9",
-                    "sourceTagPath": "[~]Device1/B3:5_9.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_13",
-                    "sourceTagPath": "[~]Device1/B3:4_13.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:5",
+                    "name": "PRESSURE_HH_SP",
                     "sourceTagPath": "[~]Device1/F8:5.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:6_0",
+                    "name": "BW_LOCKOUT_PB",
                     "sourceTagPath": "[~]Device1/B3:6_0.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:3_4",
-                    "sourceTagPath": "[~]Device1/B3:3_4.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:7",
-                    "sourceTagPath": "[~]Device1/T4:7.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:6_1",
+                    "name": "BW_ENABLE_PB",
                     "sourceTagPath": "[~]Device1/B3:6_1.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_14",
+                    "name": "MAN_BW_PB",
                     "sourceTagPath": "[~]Device1/B3:5_14.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:4_4",
-                    "sourceTagPath": "[~]Device1/B3:4_4.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_5",
+                    "name": "BACKWASH_PENDING",
                     "sourceTagPath": "[~]Device1/B3:4_5.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N10:1",
-                    "sourceTagPath": "[~]Device1/N10:1.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "N7:1",
+                    "name": "SV2_STATUS",
                     "sourceTagPath": "[~]Device1/N7:1.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:1_10",
+                    "name": "P1_OFF_PB",
                     "sourceTagPath": "[~]Device1/B3:1_10.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:3_2",
+                    "name": "SYS_STOP_PB",
                     "sourceTagPath": "[~]Device1/B3:3_2.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:10",
+                    "name": "HOURMETER_MINS",
                     "sourceTagPath": "[~]Device1/N7:10.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:4_1",
-                    "sourceTagPath": "[~]Device1/B3:4_1.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:6_10",
-                    "sourceTagPath": "[~]Device1/B3:6_10.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:5",
-                    "sourceTagPath": "[~]Device1/T4:5.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_13",
-                    "sourceTagPath": "[~]Device1/B3:3_13.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_2",
+                    "name": "SV4_HAND_PB",
                     "sourceTagPath": "[~]Device1/B3:1_2.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:8",
-                    "sourceTagPath": "[~]Device1/T4:8.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_14",
+                    "name": "SV3_OFF_PB",
                     "sourceTagPath": "[~]Device1/B3:0_14.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_13",
+                    "name": "ALL_AUTO",
                     "sourceTagPath": "[~]Device1/B3:5_13.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Float4",
-                    "name": "F8:10",
-                    "sourceTagPath": "[~]Device1/F8:10.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:6_2",
-                    "sourceTagPath": "[~]Device1/B3:6_2.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_4",
+                    "name": "SV5_OFF_PB",
                     "sourceTagPath": "[~]Device1/B3:1_4.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:7",
+                    "name": "LEVEL_HH_SP",
                     "sourceTagPath": "[~]Device1/F8:7.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_11",
+                    "name": "SV2_OFF_PB",
                     "sourceTagPath": "[~]Device1/B3:0_11.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:6_4",
-                    "sourceTagPath": "[~]Device1/B3:6_4.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_3",
-                    "sourceTagPath": "[~]Device1/B3:2_3.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_0",
-                    "sourceTagPath": "[~]Device1/B3:5_0.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_15",
+                    "name": "BACKWASH_LOCKOUT",
                     "sourceTagPath": "[~]Device1/B3:5_15.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_5",
-                    "sourceTagPath": "[~]Device1/B3:5_5.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:0_4",
+                    "name": "SV4",
                     "sourceTagPath": "[~]Device1/B3:0_4.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_4",
-                    "sourceTagPath": "[~]Device1/B3:5_4.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:6_8",
-                    "sourceTagPath": "[~]Device1/B3:6_8.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:2",
-                    "sourceTagPath": "[~]Device1/T4:2.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_12",
-                    "sourceTagPath": "[~]Device1/B3:2_12.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:10",
-                    "sourceTagPath": "[~]Device1/T4:10.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:0_0",
+                    "name": "FS1",
                     "sourceTagPath": "[~]Device1/B3:0_0.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_9",
-                    "sourceTagPath": "[~]Device1/B3:2_9.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_10",
-                    "sourceTagPath": "[~]Device1/B3:2_10.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_14",
-                    "sourceTagPath": "[~]Device1/B3:1_14.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:9",
+                    "name": "HOURMETER_SECS",
                     "sourceTagPath": "[~]Device1/N7:9.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_7",
+                    "name": "P1",
                     "sourceTagPath": "[~]Device1/B3:0_7.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:1_11",
+                    "name": "P1_HAND_PB",
                     "sourceTagPath": "[~]Device1/B3:1_11.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:0",
+                    "name": "PT1_SV",
                     "sourceTagPath": "[~]Device1/F8:0.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B9:0_4",
-                    "sourceTagPath": "[~]Device1/B9:0_4.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_2",
-                    "sourceTagPath": "[~]Device1/B3:5_2.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:11",
-                    "sourceTagPath": "[~]Device1/T4:11.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_12",
+                    "name": "LEVEL_LL_ALARM",
                     "sourceTagPath": "[~]Device1/B3:4_12.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:3_15",
-                    "sourceTagPath": "[~]Device1/B3:3_15.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_1",
-                    "sourceTagPath": "[~]Device1/B3:5_1.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_4",
-                    "sourceTagPath": "[~]Device1/B3:2_4.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_10",
+                    "name": "ALARM_SILENCE",
                     "sourceTagPath": "[~]Device1/B3:3_10.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B9:0_2",
-                    "sourceTagPath": "[~]Device1/B9:0_2.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:8",
+                    "name": "LEVEL_L_SP",
                     "sourceTagPath": "[~]Device1/F8:8.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:4",
+                    "name": "SV5_STATUS",
                     "sourceTagPath": "[~]Device1/N7:4.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:7",
+                    "name": "BW_TIME_LEFT",
                     "sourceTagPath": "[~]Device1/N7:7.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:4_9",
-                    "sourceTagPath": "[~]Device1/B3:4_9.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B9:0_3",
-                    "sourceTagPath": "[~]Device1/B9:0_3.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_14",
-                    "sourceTagPath": "[~]Device1/B3:3_14.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_2",
-                    "sourceTagPath": "[~]Device1/B3:4_2.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_7",
+                    "name": "SV6_OFF_PB",
                     "sourceTagPath": "[~]Device1/B3:1_7.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:3_3",
+                    "name": "SYS_START_PB",
                     "sourceTagPath": "[~]Device1/B3:3_3.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_12",
+                    "name": "SV2_HAND_PB",
                     "sourceTagPath": "[~]Device1/B3:0_12.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_10",
-                    "sourceTagPath": "[~]Device1/B3:5_10.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_7",
-                    "sourceTagPath": "[~]Device1/B3:2_7.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_15",
-                    "sourceTagPath": "[~]Device1/B3:4_15.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_5",
-                    "sourceTagPath": "[~]Device1/B3:2_5.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B9:0_0",
-                    "sourceTagPath": "[~]Device1/B9:0_0.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_13",
-                    "sourceTagPath": "[~]Device1/B3:1_13.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:6",
+                    "name": "LEVEL_LL_SP",
                     "sourceTagPath": "[~]Device1/F8:6.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B9:0_7",
-                    "sourceTagPath": "[~]Device1/B9:0_7.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_0",
-                    "sourceTagPath": "[~]Device1/B3:3_0.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_12",
+                    "name": "P1_AUTO_PB",
                     "sourceTagPath": "[~]Device1/B3:1_12.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:2_13",
-                    "sourceTagPath": "[~]Device1/B3:2_13.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:0_2",
+                    "name": "SV2",
                     "sourceTagPath": "[~]Device1/B3:0_2.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_1",
-                    "sourceTagPath": "[~]Device1/B3:3_1.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:8",
+                    "name": "BACKWASH_COUNT",
                     "sourceTagPath": "[~]Device1/N7:8.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:1_0",
+                    "name": "SV3_AUTO_PB",
                     "sourceTagPath": "[~]Device1/B3:1_0.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:1_6",
+                    "name": "SV5_AUTO_PB",
                     "sourceTagPath": "[~]Device1/B3:1_6.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "N10:0",
-                    "sourceTagPath": "[~]Device1/N10:0.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_1",
+                    "name": "SV1",
                     "sourceTagPath": "[~]Device1/B3:0_1.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_13",
+                    "name": "SV2_AUTO_PB",
                     "sourceTagPath": "[~]Device1/B3:0_13.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:4_10",
+                    "name": "LOW_FLOW_ALARM",
                     "sourceTagPath": "[~]Device1/B3:4_10.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:0",
-                    "sourceTagPath": "[~]Device1/T4:0.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:4_6",
+                    "name": "BACKWASH_RUNNING",
                     "sourceTagPath": "[~]Device1/B3:4_6.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_7",
-                    "sourceTagPath": "[~]Device1/B3:3_7.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:6_6",
-                    "sourceTagPath": "[~]Device1/B3:6_6.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_0",
-                    "sourceTagPath": "[~]Device1/B3:2_0.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:3",
+                    "name": "SV4_STATUS",
                     "sourceTagPath": "[~]Device1/N7:3.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_15",
-                    "sourceTagPath": "[~]Device1/B3:2_15.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_8",
-                    "sourceTagPath": "[~]Device1/B3:2_8.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_7",
-                    "sourceTagPath": "[~]Device1/B3:4_7.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:2",
+                    "name": "SV3_STATUS",
                     "sourceTagPath": "[~]Device1/N7:2.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:6",
-                    "sourceTagPath": "[~]Device1/T4:6.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B9:0_1",
-                    "sourceTagPath": "[~]Device1/B9:0_1.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:0_5",
+                    "name": "SV5",
                     "sourceTagPath": "[~]Device1/B3:0_5.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:11",
+                    "name": "HOURMETER_HRS",
                     "sourceTagPath": "[~]Device1/N7:11.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_6",
+                    "name": "FLOW_ALM_PB",
                     "sourceTagPath": "[~]Device1/B3:5_6.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:1",
+                    "name": "PT2_SV",
                     "sourceTagPath": "[~]Device1/F8:1.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "N10:2",
-                    "sourceTagPath": "[~]Device1/N10:2.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:4",
-                    "sourceTagPath": "[~]Device1/T4:4.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:1_9",
+                    "name": "SV6_AUTO_PB",
                     "sourceTagPath": "[~]Device1/B3:1_9.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:12",
-                    "sourceTagPath": "[~]Device1/T4:12.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:6_5",
-                    "sourceTagPath": "[~]Device1/B3:6_5.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_6",
-                    "sourceTagPath": "[~]Device1/B3:3_6.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_14",
+                    "name": "LEVEL_HH_ALARM",
                     "sourceTagPath": "[~]Device1/B3:4_14.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_14",
-                    "sourceTagPath": "[~]Device1/B3:2_14.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:9",
+                    "name": "LEVEL_H_SP",
                     "sourceTagPath": "[~]Device1/F8:9.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:1_3",
+                    "name": "SV4_AUTO_PB",
                     "sourceTagPath": "[~]Device1/B3:1_3.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:0",
+                    "name": "SV1_STATUS",
                     "sourceTagPath": "[~]Device1/N7:0.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_9",
+                    "name": "SV1_HAND_PB",
                     "sourceTagPath": "[~]Device1/B3:0_9.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:3_9",
+                    "name": "ALARM_RESET",
                     "sourceTagPath": "[~]Device1/B3:3_9.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:6_7",
+                    "name": "LOG_BW_DATA",
                     "sourceTagPath": "[~]Device1/B3:6_7.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:4_3",
-                    "sourceTagPath": "[~]Device1/B3:4_3.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_8",
+                    "name": "SYS_RUNNING",
                     "sourceTagPath": "[~]Device1/B3:3_8.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B9:0_5",
-                    "sourceTagPath": "[~]Device1/B9:0_5.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:12",
+                    "name": "HOURMETER_KHRS",
                     "sourceTagPath": "[~]Device1/N7:12.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_15",
+                    "name": "SV3_HAND_PB",
                     "sourceTagPath": "[~]Device1/B3:0_15.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:14",
-                    "sourceTagPath": "[~]Device1/T4:14.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:9",
-                    "sourceTagPath": "[~]Device1/T4:9.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_2",
-                    "sourceTagPath": "[~]Device1/B3:2_2.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_12",
-                    "sourceTagPath": "[~]Device1/B3:3_12.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_8",
-                    "sourceTagPath": "[~]Device1/B3:5_8.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:2",
+                    "name": "LT1_SV",
                     "sourceTagPath": "[~]Device1/F8:2.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_3",
-                    "sourceTagPath": "[~]Device1/B3:5_3.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Float4",
-                    "name": "F8:11",
-                    "sourceTagPath": "[~]Device1/F8:11.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:1",
-                    "sourceTagPath": "[~]Device1/T4:1.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:0_10",
+                    "name": "SV1_AUTO_PB",
                     "sourceTagPath": "[~]Device1/B3:0_10.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:3",
+                    "name": "DIFF_PRES",
                     "sourceTagPath": "[~]Device1/F8:3.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:6_3",
+                    "name": "RESET_BW_COUNT_PB",
                     "sourceTagPath": "[~]Device1/B3:6_3.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:3_11",
-                    "sourceTagPath": "[~]Device1/B3:3_11.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:0_6",
+                    "name": "SV6",
                     "sourceTagPath": "[~]Device1/B3:0_6.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:4_8",
+                    "name": "PRES_HH_ALARM",
                     "sourceTagPath": "[~]Device1/B3:4_8.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_11",
-                    "sourceTagPath": "[~]Device1/B3:4_11.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:4_0",
-                    "sourceTagPath": "[~]Device1/B3:4_0.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_15",
-                    "sourceTagPath": "[~]Device1/B3:1_15.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_1",
-                    "sourceTagPath": "[~]Device1/B3:2_1.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:2_11",
-                    "sourceTagPath": "[~]Device1/B3:2_11.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:3_5",
-                    "sourceTagPath": "[~]Device1/B3:3_5.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Float4",
-                    "name": "F8:4",
+                    "name": "BACKWASH_SP",
                     "sourceTagPath": "[~]Device1/F8:4.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:5",
+                    "name": "SV6_STATUS",
                     "sourceTagPath": "[~]Device1/N7:5.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:13",
-                    "sourceTagPath": "[~]Device1/T4:13.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_7",
-                    "sourceTagPath": "[~]Device1/B3:5_7.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B9:0_6",
-                    "sourceTagPath": "[~]Device1/B9:0_6.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_1",
+                    "name": "SV4_OFF_PB",
                     "sourceTagPath": "[~]Device1/B3:1_1.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:1_8",
+                    "name": "SV6_HAND_PB",
                     "sourceTagPath": "[~]Device1/B3:1_8.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:5_12",
-                    "sourceTagPath": "[~]Device1/B3:5_12.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:1_5",
+                    "name": "SV5_HAND_PB",
                     "sourceTagPath": "[~]Device1/B3:1_5.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:6_9",
+                    "name": "RESET_HOURMETER_PB",
                     "sourceTagPath": "[~]Device1/B3:6_9.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:0_8",
+                    "name": "SV1_OFF_PB",
                     "sourceTagPath": "[~]Device1/B3:0_8.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
                     "dataType": "Boolean",
-                    "name": "B3:2_6",
-                    "sourceTagPath": "[~]Device1/B3:2_6.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Int4",
-                    "name": "T4:3",
-                    "sourceTagPath": "[~]Device1/T4:3.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:0_3",
+                    "name": "SV3",
                     "sourceTagPath": "[~]Device1/B3:0_3.value"
                 },
                 {
                     "valueSource": "reference",
                     "tagType": "AtomicTag",
-                    "dataType": "Boolean",
-                    "name": "B3:5_11",
-                    "sourceTagPath": "[~]Device1/B3:5_11.value"
-                },
-                {
-                    "valueSource": "reference",
-                    "tagType": "AtomicTag",
                     "dataType": "Int4",
-                    "name": "N7:6",
+                    "name": "P1_STATUS",
                     "sourceTagPath": "[~]Device1/N7:6.value"
                 }
             ]
